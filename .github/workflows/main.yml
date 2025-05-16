@@ -2,7 +2,7 @@ name: Build, test and deploy
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   
 jobs:
   build:
@@ -34,4 +34,4 @@ jobs:
       - name: Test PHPUnit
         run: ./vendor/bin/phpunit
       
-      
+
